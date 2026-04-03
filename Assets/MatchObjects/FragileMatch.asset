@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1641cd8fa3897634da10f636e35a47b6, type: 3}
+  m_Name: FragileMatch
+  m_EditorClassIdentifier: 
+  displayName: Fragile Match
+  matchType: 3
+  icon: {fileID: 21300000, guid: f56475913a963944c916fe3a8d9e62c6, type: 3}
+  burnDuration: 10
+  lightRange: 4
+  lightIntensity: 3
+  warmthPerSecond: 8
+  heatBufferGain: 20
+  igniteSfx: {fileID: 8300000, guid: d6af4133ef0583448b1e9bfecde12872, type: 3}
+  extinguishSfx: {fileID: 0}
+  igniteVfxPrefab: {fileID: 0}
+  burnLoopVfxPrefab: {fileID: 7177293097784205672, guid: bfdee28d0f0f0be46a0d4e82492fb0a2, type: 3}
+  extinguishVfxPrefab: {fileID: 990867407112992729, guid: 654f9adb8ac2e634ea8f807699d8a94d, type: 3}

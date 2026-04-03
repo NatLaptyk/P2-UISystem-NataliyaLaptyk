@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1641cd8fa3897634da10f636e35a47b6, type: 3}
+  m_Name: NormalMatch
+  m_EditorClassIdentifier: 
+  displayName: Normal Match
+  matchType: 1
+  icon: {fileID: 21300000, guid: ea7bb841f59c85d44a51a9b019be116e, type: 3}
+  burnDuration: 15
+  lightRange: 12
+  lightIntensity: 8
+  warmthPerSecond: 10
+  heatBufferGain: 25
+  igniteSfx: {fileID: 8300000, guid: d6af4133ef0583448b1e9bfecde12872, type: 3}
+  extinguishSfx: {fileID: 0}
+  igniteVfxPrefab: {fileID: 0}
+  burnLoopVfxPrefab: {fileID: 8320650280328051164, guid: e8cae7422ef9a1240b278d0578897afc, type: 3}
+  extinguishVfxPrefab: {fileID: 990867407112992729, guid: 654f9adb8ac2e634ea8f807699d8a94d, type: 3}

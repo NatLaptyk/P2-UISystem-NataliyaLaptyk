@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1641cd8fa3897634da10f636e35a47b6, type: 3}
+  m_Name: BrightMatch
+  m_EditorClassIdentifier: 
+  displayName: Bright Match
+  matchType: 2
+  icon: {fileID: 21300000, guid: c40dfce0d7eea0a4cb4bd076a0f96a30, type: 3}
+  burnDuration: 6
+  lightRange: 15
+  lightIntensity: 8
+  warmthPerSecond: 20
+  heatBufferGain: 40
+  igniteSfx: {fileID: 8300000, guid: d6af4133ef0583448b1e9bfecde12872, type: 3}
+  extinguishSfx: {fileID: 0}
+  igniteVfxPrefab: {fileID: 0}
+  burnLoopVfxPrefab: {fileID: 3894685165460707670, guid: 9e16c248adaf629488f16097ac8c2b84, type: 3}
+  extinguishVfxPrefab: {fileID: 990867407112992729, guid: 654f9adb8ac2e634ea8f807699d8a94d, type: 3}
