@@ -37,8 +37,7 @@ public class DeathScreenUI : MonoBehaviour
 
     private void ShowDeathScreen()
     {
-        Debug.Log("ShowDeathScreen called!");
-        if (m_DeathPanel != null)
+            if (m_DeathPanel != null)
             m_DeathPanel.SetActive(true);
     }
 }

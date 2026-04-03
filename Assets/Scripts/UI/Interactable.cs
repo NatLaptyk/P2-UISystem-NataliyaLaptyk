@@ -51,7 +51,6 @@ public class Interactable : MonoBehaviour
              
          if (matchData != null)
         {
-            Debug.Log($"Picked up a {matchData.DisplayName()}");
             GameManager.Instance.AddMatch();
             inventory.PickUp(matchData);
             gameObject.SetActive(false);

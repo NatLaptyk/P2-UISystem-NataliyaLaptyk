@@ -74,7 +74,6 @@ public class GameManager : MonoBehaviour
           // Check for death
           if (currentHeat <= 0f && !_isDead)
           {
-            Debug.Log("Death condition triggered!");
             _isDead = true;
             OnPlayerDied?.Invoke();
           }
@@ -174,11 +173,6 @@ public class GameManager : MonoBehaviour
 
     private void PlayMatchFX(MatchData matchToLight)
     {
-        Debug.Log($"PlayMatchFX called with: {matchToLight.DisplayName()}");
-        Debug.Log($"AudioSource: {m_AudioSource}, IgniteSfx: {matchToLight.IgniteSfx()}");
-        Debug.Log($"MatchLight: {m_MatchLight}");
-        Debug.Log($"BurnLoopVfx: {matchToLight.BurnLoopVfxPrefab()}, FxAnchor: {m_FxAnchor}");
-
         if (m_AudioSource != null && matchToLight.IgniteSfx() != null)
             m_AudioSource.PlayOneShot(matchToLight.IgniteSfx());
 

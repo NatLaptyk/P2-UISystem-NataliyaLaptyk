@@ -1,9 +1,6 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-// LevelCompleteZone.cs
-// Loads the end scene when the player enters this trigger zone.
-// Scene name must match exactly what's registered in Build Settings.
 public class LevelCompleteZone : MonoBehaviour
 {
     [SerializeField] private string endSceneName = "EndScene";

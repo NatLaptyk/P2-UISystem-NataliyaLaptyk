@@ -56,7 +56,6 @@ public class InventorySlotUI : MonoBehaviour
 
     public void UpdateBurnProgress(float normalizedProgress)
     {
-        Debug.Log($"Slot UpdateBurnProgress: normalized={normalizedProgress}, BurnFill null={m_BurnFill == null}, BurnFill active={m_BurnFill?.gameObject.activeSelf}");
         if (m_BurnFill == null) return;
         m_BurnFill.gameObject.SetActive(normalizedProgress > 0f);
         m_BurnFill.fillAmount = normalizedProgress;

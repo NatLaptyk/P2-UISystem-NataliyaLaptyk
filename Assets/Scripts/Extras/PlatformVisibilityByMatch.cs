@@ -30,17 +30,16 @@ public class PlatformVisibilityByMatch : MonoBehaviour
          if (GameManager.Instance != null)
     {
         GameManager.Instance.OnBurnStateChanged += OnBurnStateChanged;
-        Debug.Log($"PlatformVisibilityByMatch on {gameObject.name}: subscribed successfully");
+        // Set initial visibility based on current burn state
     }
     else
-        Debug.LogError($"PlatformVisibilityByMatch on {gameObject.name}: GameManager null in Start!");
-
-    SetVisibility(false);
+    {
+        SetVisibility(false);
+    }
     }
 
     private void OnBurnStateChanged(bool isLit)
     {
-        Debug.Log($"PlatformVisibilityByMatch on {gameObject.name}: OnBurnStateChanged={isLit}");
         SetVisibility(isLit);
     }
 
