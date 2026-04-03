@@ -3078,6 +3078,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Matchbox 1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 8189594079318120163, guid: 67bd198cd40df9b4fbf8920fe55c1114, type: 3}
+      propertyPath: m_Layer
+      value: 9
+      objectReference: {fileID: 0}
     - target: {fileID: 8857622519056059481, guid: 67bd198cd40df9b4fbf8920fe55c1114, type: 3}
       propertyPath: m_LocalPosition.x
       value: 243.5
@@ -3784,6 +3788,10 @@ PrefabInstance:
     - target: {fileID: 8189594079318120163, guid: 67bd198cd40df9b4fbf8920fe55c1114, type: 3}
       propertyPath: m_Name
       value: Matchbox 1 (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8189594079318120163, guid: 67bd198cd40df9b4fbf8920fe55c1114, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8857622519056059481, guid: 67bd198cd40df9b4fbf8920fe55c1114, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5363,6 +5371,10 @@ PrefabInstance:
     - target: {fileID: 8189594079318120163, guid: 67bd198cd40df9b4fbf8920fe55c1114, type: 3}
       propertyPath: m_Name
       value: Matchbox 1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8189594079318120163, guid: 67bd198cd40df9b4fbf8920fe55c1114, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8857622519056059481, guid: 67bd198cd40df9b4fbf8920fe55c1114, type: 3}
       propertyPath: m_LocalPosition.x
@@ -19678,6 +19690,10 @@ PrefabInstance:
     - target: {fileID: 8189594079318120163, guid: 67bd198cd40df9b4fbf8920fe55c1114, type: 3}
       propertyPath: m_Name
       value: Matchbox 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8189594079318120163, guid: 67bd198cd40df9b4fbf8920fe55c1114, type: 3}
+      propertyPath: m_Layer
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 8857622519056059481, guid: 67bd198cd40df9b4fbf8920fe55c1114, type: 3}
       propertyPath: m_LocalScale.x
